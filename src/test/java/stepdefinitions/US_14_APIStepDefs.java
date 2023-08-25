@@ -1,27 +1,19 @@
 package stepdefinitions;
 
 import base_urls.ManagementonSchoolBaseUrl;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-import org.junit.Assert;
-import pojos.CreatedTeacherPojo;
 import us16_test_data.JsonUtil;
 import us16_test_data.US14Testdata;
 
 
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class US14_APIStepDefs extends ManagementonSchoolBaseUrl {
+public class US_14_APIStepDefs extends ManagementonSchoolBaseUrl {
     Response response;
 
 

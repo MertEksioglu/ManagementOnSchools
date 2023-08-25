@@ -45,7 +45,5 @@
 //        assertEquals(ssn, actSsn);
 //        assertEquals(surname, actSurname);
 //        assertEquals(username, actUsername);
-//
 //    }
-//
 //}
