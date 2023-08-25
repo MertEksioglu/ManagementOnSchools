@@ -30,7 +30,6 @@ public class US_05_AdminsSeeDeleteUpdateDeans {
     AdminMngPage adminMngPage = new AdminMngPage();
 
 
-
     DeanMngPage deanMngPage=new DeanMngPage();
     public CharSequence adminPasssword;
 
