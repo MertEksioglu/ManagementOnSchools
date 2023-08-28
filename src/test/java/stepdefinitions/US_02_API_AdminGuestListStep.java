@@ -25,7 +25,6 @@
 //    }
 //    @Then("body should contain birth_day {string}, birth_place {string}, gender {string}, name {string}, phone_number {string}, ssn {string}, surname {string}, username {string}")
 //    public void body_should_contain_birth_day_birth_place_gender_name_phone_number_ssn_surname_username(String birth_day, String birth_place, String gender, String name, String phone_number, String ssn, String surname, String username) {
-//
 //        //Do assertion
 //        JsonPath jsonPath = response.jsonPath();
 //        String actBirthDay = jsonPath.getList("content.findAll{it.username=='" + username + "'}.birthDay").get(0).toString();
@@ -46,4 +45,5 @@
 //        assertEquals(surname, actSurname);
 //        assertEquals(username, actUsername);
 //    }
+
 //}
